@@ -22,14 +22,14 @@ my_instance_context = """
 """
 
 my_instance_starter = """
-Welcome the user shortly. 
+Welcome the user and invite him to embark on the journey of memory. In one sentence. 
 """
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
     type_id="coach",
     user_id="daniel",
-    type_name="Health Coach",
+    type_name="CHAT",
     type_role=my_type_role,
     instance_context=my_instance_context,
     instance_starter=my_instance_starter

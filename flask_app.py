@@ -22,7 +22,7 @@ my_instance_context = """
 """
 
 my_instance_starter = """
-Welcome the user shortly. 
+Welcome the user and invite them to embark on the journey of memory. 
 """
 
 bot = Chatbot(
